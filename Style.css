@@ -11,6 +11,10 @@ body {
     justify-content: center;
     min-height: 100vh;
 }
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+}
 .container {
     width: 690px;
     background-color: #fff;
