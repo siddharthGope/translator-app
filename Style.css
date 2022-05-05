@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+body {
+    background-color: #5372f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container {
+    width: 690px;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 30px;
+}
+.wrapper {
+    border-radius: 5px;
+    border: 1px solid #bbb;
+}
+.wrapper .text-input {
+    display: flex;
+    border-bottom: 1px solid #bbb;
+}
+.from-text {
+}
+.to-text {
+}
+.text-input textarea {
+    height: 250px;
+    width: 100%;
+    outline: 0;
+    background: none;
+    font-size: 18px;
+    border-radius: 5px;
+    background: none;
+    padding: 10px 15px;
+    resize: none;
+}
+.controls {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 15px;
+}
+.icons i{
+    color: #9f9f9f;
+    font-size: 14px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 50px;
+}
+.translate-btn {
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #5372f0;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+}
